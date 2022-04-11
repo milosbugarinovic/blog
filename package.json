@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc:toc": "npx markdown-toc -i ./draft/**/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milosbugarinovic/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milosbugarinovic/blog/issues"
+  },
+  "homepage": "https://github.com/milosbugarinovic/blog#readme"
+}
