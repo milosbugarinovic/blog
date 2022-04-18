@@ -19,7 +19,7 @@
 
 ## App Layer
 
-> Summary : App layer je deo aplikacije koji se prvi izvršava i koristi se za inicijali setup. Može se koristiti za registrovanje rest endpointa i za otvaranje konekcija ka bazi ili drugim servisima kao i orkestraciji init procesa i redosleda izvršavanja. Isto se koristi i za bezbedno gašenje aplikacije.
+[//]: # (> Summary : App layer je deo aplikacije koji se prvi izvršava i koristi se za inicijali setup. Može se koristiti za registrovanje rest endpointa i za otvaranje konekcija ka bazi ili drugim servisima kao i orkestraciji init procesa i redosleda izvršavanja. Isto se koristi i za bezbedno gašenje aplikacije.)
 
 Prilikom pokretanja aplikacije nekad postoji potreba da se izvrši podešavanje aplikacije pre nego što može da se kaže da je aplikacija spremna za rad. U ovom delu aplikacije moramo da imamo mogućnost kako da izvršimo određene akcije sekvencijalno ili paralelno. U ovom delu možemo čak definisati različite načine kako se pokreće aplikacija (npr. ako pokrećemo aplikaciju da bi je testirali možemo da odlučimo da ne pokrećemo RestAPI interfejs) 
 
@@ -35,7 +35,8 @@ Tako da prilikom gašenja, kada stigne SIGERM signal, potrebno je da ugasimo sve
 
 ## Controller Layer
 
-> Summary: Controller layer je mesto gde držimo kod koji može da započne neku akciju u našoj aplikaciji. Možemo da kažemo da je to entry point. Ovaj deo tretiramo kao obod koda (krajnja granica) i ovde je dobro mesto da držimo frameworke na distanci, daleko od naše biznis logike.
+[//]: # (> Summary: Controller layer je mesto gde držimo kod koji može da započne neku akciju u našoj aplikaciji. Možemo da kažemo da je to entry point. Ovaj deo tretiramo kao obod koda &#40;krajnja granica&#41; i ovde je dobro mesto da držimo frameworke na distanci, daleko od naše biznis logike.)
+
 
 Kontroler je mesto čiji je cilj da grupiše na jednom mestu entryPoint naše aplikacije za krajnje korisnike. Drugim rečima, šta god da se desi u našoj aplikaciji, moralo je da počne iz kontrolera. Ovo je ujedno dobro mesto da napravimo granicu za frameworke kako bi istu držali daleko od naše biznis logike. 
 
