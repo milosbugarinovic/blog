@@ -1,0 +1,80 @@
+@startuml
+
+
+frame "App (Entry Point)" as app #cyan {
+  rectangle "DB Init" #white
+  rectangle "RestApi Init" #white
+  rectangle "Cron Init" #white
+  rectangle "MQ Init" #white
+  rectangle "EventBus Init" #white
+}
+
+
+frame "Controller layer" as controllerLayer #yellowgreen {
+  cloud "Internet\n(RestAPI, GraphQL)" as internet #white {
+    hexagon "TO" as cloudTO #fuchsia
+  }
+  queue "Message Queue" as messageQueue #white
+  storage "CronJob" as croneJob #white
+  storage "EventBus" as eventBus #white
+}
+
+rectangle "Common DAL Interface" as commonDalInterface #fuchsia
+rectangle "Common DAL" as commonDal #fuchsia
+
+frame "Business Layer" as businessLayer {
+  rectangle "Use Case Layer" as useCaseLayer #yellow
+  rectangle "Service Layer" as serviceLayer #orange
+  hexagon "Model Layer" as modelLayer #fuchsia
+  rectangle "Data Access Layer" as dataAccessLayer  #skyblue
+}
+
+frame "Data Access Layer Implementation" as dalImpl #skyblue {
+  database "DB\n(SQL, NoSQL)" as db #white {
+    hexagon "Entity" as dbEntity #fuchsia
+  }
+  cloud "Third party service\n(RestAPI, GraphQL)" as thirdPartiService #white {
+    hexagon "Entity" as cloudEntity #fuchsia
+  }
+  file "Local Storage\n(file, memory)" as localStorage #white {
+    hexagon "Entity" as lsEntity #fuchsia
+  }
+  file "FTP" as ftp #white {
+    hexagon "Entity" as ftpEntity #fuchsia
+  }
+}
+
+
+frame "Util" as util #yellow {
+  rectangle "logger" #white
+  rectangle "error" #white
+  rectangle "config" #white
+  rectangle "constant" #white
+}
+
+' rectangle "Module Layer" as moduleLayer
+
+' ' ' ' ' ' '
+' Relations '
+' ' ' ' ' ' '
+
+controllerLayer -down-> dataAccessLayer
+controllerLayer -down-> serviceLayer
+controllerLayer -down-> useCaseLayer
+
+dalImpl .down.|> commonDalInterface
+dalImpl -down-|> commonDal
+
+commonDal .down.|> commonDalInterface
+
+useCaseLayer -down-> serviceLayer
+useCaseLayer -right-> modelLayer
+useCaseLayer -down-> dataAccessLayer
+
+serviceLayer -right-> modelLayer
+serviceLayer -down-> dataAccessLayer
+
+dataAccessLayer -right-> modelLayer
+dataAccessLayer .down.> dalImpl : Dependency injection
+
+@enduml

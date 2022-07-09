@@ -1,0 +1,26 @@
+@startuml
+
+rectangle "User\ncreated order" as userAction
+rectangle {
+  actor Orchestration as orchestrator
+  database "Orchestrator\nDB" as orchestratorDb
+}
+rectangle "Step 1\ncharge customer" as step1
+rectangle "Step 2\nschedule order" as step2
+rectangle "Step 3\nsend email"  as step3
+
+orchestrator -up-> userAction
+orchestrator <-up- userAction
+orchestrator -right-> orchestratorDb
+orchestrator <-right- orchestratorDb
+
+orchestrator -down-> step1
+orchestrator <-down- step1
+
+orchestrator -down-> step2
+orchestrator <-down- step2
+
+orchestrator -down-> step3
+orchestrator <-down- step3
+
+@enduml

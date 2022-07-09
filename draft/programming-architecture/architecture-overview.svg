@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="949px" preserveAspectRatio="none" style="width:1305px;height:949px;background:#FFFFFF;" version="1.1" viewBox="0 0 1305 949" width="1305px" zoomAndPan="magnify"><defs/><g><!--MD5=[d5ac3844f66b12d9e08170e47495e096]
+cluster app--><g id="cluster_app"><rect fill="#00FFFF" height="205" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="350" x="949" y="69"/><path d="M1097,69 L1097,78.2969 L1087,88.2969 L949,88.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="138" x="952" y="82.9951">App (Entry Point)</text></g><!--MD5=[b7d39122360d9311b4be143c8495ea21]
+cluster controllerLayer--><g id="cluster_controllerLayer"><rect fill="#9ACD32" height="275" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="493" x="7" y="7"/><path d="M143,7 L143,16.2969 L133,26.2969 L7,26.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="10" y="20.9951">Controller layer</text></g><!--MD5=[bda1a16375a29484a87084063898b60a]
+cluster internet--><g id="cluster_internet"><path d="M301.6185,66.5938 C305.3726,60.8555 310.1019,62.4319 312.738,67.7211 C316.6648,60.4899 321.3194,61.3228 325.845,67.1187 C329.9276,60.7731 334.6223,60.41 339.3999,66.352 C342.4484,61.1305 347.4307,59.4618 351.5236,65.1964 C355.5719,58.6606 360.3071,58.8139 364.3862,65.1656 C368.8799,59.1762 372.9557,58.3786 377.6898,64.9101 C381.8382,60.4518 385.2944,59.4925 388.8214,65.5668 C392.7186,58.3244 398.8296,58.461 402.9122,65.3824 C407.5594,60.1215 411.369,61.6507 414.6579,66.9002 C418.0888,61.4515 422.75,59.5947 427.1214,65.9031 C432.6225,60.0015 437.0884,60.5616 440.9107,67.6809 C445.0855,60.8924 449.3295,61.988 453.847,67.3149 C459.9535,70.8539 458.8293,75.155 454.001,78.8402 C460.357,82.3143 461.7015,88.9704 455.0129,93.354 C460.4454,95.5254 460.95,101.1279 456.6827,104.7239 C462.3822,109.4406 460.7422,114.6542 454.9298,117.8314 C462.1417,122.2165 461.5268,126.519 455.0565,131.0353 C460.7805,134.9145 460.3534,140.917 453.664,143.398 C451.0688,150.0256 444.2125,150.285 440.0722,145.1895 C436.6081,151.7581 431.8775,153.3394 426.6908,146.9713 C424.2108,152.7384 418.3561,153.3388 414.3976,148.7217 C410.3506,153.9824 405.429,154.8271 401.5508,148.5341 C398.1009,154.9818 393.8501,155.5329 389.2648,149.667 C387.0885,156.8786 381.3365,157.6481 376.6187,152.2072 C371.4463,157.5944 366.468,155.9182 363.8239,149.4732 C360.4152,155.0363 354.5818,154.8632 351.1349,149.5177 C345.9413,154.1148 341.6098,154.1971 338.16,147.5123 C334.1627,152.8911 328.0093,151.3857 325.5548,145.7473 C322.0651,150.487 316.6345,151.8664 313.5023,145.364 C309.7307,150.2694 305.3951,149.9146 302.1797,144.7393 C296.5162,141.1263 295.6442,136.646 301.0007,132.0122 C294.2806,129.3757 294.1447,123.7904 298.7176,119.1494 C291.5668,116.7626 292.2051,110.1363 297.1038,106.2428 C291.0901,101.2731 292.2104,96.6487 298.3248,92.7789 C293.2673,88.0348 294.3012,83.1874 300.9042,80.996 C293.2564,76.1104 294.5114,70.7476 301.6185,66.5938 " fill="#FFFFFF" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="343" y="83.9951">Internet</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="300" y="100.292">(RestAPI, GraphQL)</text></g><!--MD5=[7da5605bbc58a221e14b4197dc0ccac6]
+cluster businessLayer--><g id="cluster_businessLayer"><rect height="320" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="393" x="532" y="187"/><path d="M661,187 L661,196.2969 L651,206.2969 L532,206.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="535" y="200.9951">Business Layer</text></g><!--MD5=[9bc01c76b73bc749ce659c1f07d24899]
+cluster dalImpl--><g id="cluster_dalImpl"><rect fill="#87CEEB" height="191" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="676" x="616" y="564"/><path d="M903,564 L903,573.2969 L893,583.2969 L616,583.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="277" x="619" y="577.9951">Data Access Layer Implementation</text></g><!--MD5=[e8f3788ad7b97e8de68b4194558bc2a1]
+cluster db--><g id="cluster_db"><path d="M1138,625 C1138,615 1199,615 1199,615 C1199,615 1260,615 1260,625 L1260,713 C1260,723 1199,723 1199,723 C1199,723 1138,723 1138,713 L1138,625 " fill="#FFFFFF" style="stroke:#181818;stroke-width:1.0;"/><path d="M1138,625 C1138,635 1199,635 1199,635 C1199,635 1260,635 1260,625 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="23" x="1187.5" y="649.9951">DB</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="1146" y="666.292">(SQL, NoSQL)</text></g><!--MD5=[d12fcc0cf8a04608080fd94690e9e760]
+cluster thirdPartiService--><g id="cluster_thirdPartiService"><path d="M955.6185,638.5938 C959.3726,632.8555 964.1019,634.4319 966.738,639.7211 C970.6648,632.4899 975.3194,633.3228 979.845,639.1187 C983.9276,632.7731 988.6223,632.41 993.3999,638.352 C996.4484,633.1305 1001.4307,631.4618 1005.5236,637.1964 C1009.5719,630.6606 1014.3071,630.8139 1018.3862,637.1656 C1022.8799,631.1762 1026.9557,630.3786 1031.6898,636.9101 C1035.8382,632.4518 1039.2944,631.4925 1042.8214,637.5668 C1046.7186,630.3244 1052.8296,630.461 1056.9122,637.3824 C1061.5594,632.1215 1065.369,633.6507 1068.6579,638.9002 C1072.0888,633.4515 1076.75,631.5947 1081.1214,637.9031 C1086.6225,632.0015 1091.0884,632.5616 1094.9107,639.6809 C1099.0855,632.8924 1103.3295,633.988 1107.847,639.3149 C1113.9535,642.8539 1112.8293,647.155 1108.001,650.8402 C1114.357,654.3143 1115.7015,660.9704 1109.0129,665.354 C1114.4454,667.5254 1114.95,673.1279 1110.6827,676.7239 C1116.3822,681.4406 1114.7422,686.6542 1108.9298,689.8314 C1116.1417,694.2165 1115.5268,698.519 1109.0565,703.0353 C1114.7805,706.9145 1114.3534,712.917 1107.664,715.398 C1105.0688,722.0256 1098.2125,722.285 1094.0722,717.1895 C1090.6081,723.7581 1085.8775,725.3394 1080.6908,718.9713 C1078.2108,724.7384 1072.3561,725.3388 1068.3976,720.7217 C1064.3506,725.9824 1059.429,726.8271 1055.5508,720.5341 C1052.1009,726.9818 1047.8501,727.5329 1043.2648,721.667 C1041.0885,728.8786 1035.3365,729.6481 1030.6187,724.2072 C1025.4463,729.5944 1020.468,727.9182 1017.8239,721.4732 C1014.4152,727.0363 1008.5818,726.8632 1005.1349,721.5177 C999.9413,726.1148 995.6098,726.1971 992.16,719.5123 C988.1627,724.8911 982.0093,723.3857 979.5548,717.7473 C976.0651,722.487 970.6345,723.8664 967.5023,717.364 C963.7307,722.2694 959.3951,721.9146 956.1797,716.7393 C950.5162,713.1263 949.6442,708.646 955.0007,704.0122 C948.2806,701.3757 948.1447,695.7904 952.7176,691.1494 C945.5668,688.7626 946.2051,682.1363 951.1038,678.2428 C945.0901,673.2731 946.2104,668.6487 952.3248,664.7789 C947.2673,660.0348 948.3012,655.1874 954.9042,652.996 C947.2564,648.1104 948.5114,642.7476 955.6185,638.5938 " fill="#FFFFFF" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="151" x="954.5" y="655.9951">Third party service</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="954" y="672.292">(RestAPI, GraphQL)</text></g><!--MD5=[823eae247e5b9b25193451248ff40473]
+cluster localStorage--><g id="cluster_localStorage"><path d="M792,632.5 L792,720.5 A2.5,2.5 0 0 0 794.5,723 L919.5,723 A2.5,2.5 0 0 0 922,720.5 L922,640 L912,630 L794.5,630 A2.5,2.5 0 0 0 792,632.5 " fill="#FFFFFF" style="stroke:#181818;stroke-width:1.0;"/><path d="M912,630 L912,637.5 A2.5,2.5 0 0 0 914.5,640 L922,640 " fill="#FFFFFF" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="802.5" y="644.9951">Local Storage</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114" x="800" y="661.292">(file, memory)</text></g><!--MD5=[512b8c697a1fca29e5d65020b865f217]
+cluster ftp--><g id="cluster_ftp"><path d="M656,648.5 L656,720.5 A2.5,2.5 0 0 0 658.5,723 L765.5,723 A2.5,2.5 0 0 0 768,720.5 L768,656 L758,646 L658.5,646 A2.5,2.5 0 0 0 656,648.5 " fill="#FFFFFF" style="stroke:#181818;stroke-width:1.0;"/><path d="M758,646 L758,653.5 A2.5,2.5 0 0 0 760.5,656 L768,656 " fill="#FFFFFF" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="697" y="660.9951">FTP</text></g><!--MD5=[3e81cc6ee7da4fa8b6adc12b329096f6]
+cluster util--><g id="cluster_util"><rect fill="#FFFF00" height="184" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="213" x="951" y="323"/><path d="M989,323 L989,332.2969 L979,342.2969 L951,342.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="28" x="954" y="336.9951">Util</text></g><!--MD5=[5d27561944bc7c957b66f3c8fd3a1b8f]
+entity DB Init--><g id="elem_DB Init"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="965.5" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="975.5" y="126.9951">DB Init</text></g><!--MD5=[3256d1f22611cbef19edc581c74e9b70]
+entity RestApi Init--><g id="elem_RestApi Init"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="1068" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1078" y="126.9951">RestApi Init</text></g><!--MD5=[5995a472730316ad1ba99ef5d1183cbd]
+entity Cron Init--><g id="elem_Cron Init"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="80" x="1203" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1213" y="126.9951">Cron Init</text></g><!--MD5=[618e6995c5a9d1ef3bda17f061f36fd1]
+entity MQ Init--><g id="elem_MQ Init"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69" x="965.5" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="975.5" y="244.9951">MQ Init</text></g><!--MD5=[d6d2a9314db6e00945b1f326a85474e5]
+entity EventBus Init--><g id="elem_EventBus Init"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="1070" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1080" y="244.9951">EventBus Init</text></g><!--MD5=[3401ea4b568088ee2885729e55a4da0f]
+entity messageQueue--><g id="elem_messageQueue"><path d="M36.5,109 L159.5,109 C164.5,109 164.5,122.1484 164.5,122.1484 C164.5,122.1484 164.5,135.2969 159.5,135.2969 L36.5,135.2969 C31.5,135.2969 31.5,122.1484 31.5,122.1484 C31.5,122.1484 31.5,109 36.5,109 " fill="#FFFFFF" style="stroke:#181818;stroke-width:0.5;"/><path d="M159.5,109 C154.5,109 154.5,122.1484 154.5,122.1484 C154.5,135.2969 159.5,135.2969 159.5,135.2969 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="36.5" y="126.9951">Message Queue</text></g><!--MD5=[0c85c28880b6f2be52738c2f51c3742e]
+entity croneJob--><g id="elem_croneJob"><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke:#181818;stroke-width:0.5;" width="76" x="200" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="210" y="126.9951">CronJob</text></g><!--MD5=[e3e91991f24f92e737d9e6cb749965e2]
+entity eventBus--><g id="elem_eventBus"><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke:#181818;stroke-width:0.5;" width="86" x="55" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="65" y="244.9951">EventBus</text></g><!--MD5=[fbfa8cf2b25564c931a4bf2e88c4635d]
+entity cloudTO--><g id="elem_cloudTO"><polygon fill="#FF00FF" points="397,122,387,109,367,109,357,122,367,135,387,135,397,122" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="367" y="126.9951">TO</text></g><!--MD5=[bf3cc50e1edb39cc0164f3463f634505]
+entity useCaseLayer--><g id="elem_useCaseLayer"><rect fill="#FFFF00" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="548.5" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="558.5" y="244.9951">Use Case Layer</text></g><!--MD5=[2a4a320068087b239141c82901ffd9d7]
+entity serviceLayer--><g id="elem_serviceLayer"><rect fill="#FFA500" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="585.5" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="595.5" y="380.9951">Service Layer</text></g><!--MD5=[b2501658a632e2f1205e4b716dea231e]
+entity modelLayer--><g id="elem_modelLayer"><polygon fill="#FF00FF" points="909,473,865.5,460,778.5,460,735,473,778.5,486,865.5,486,909,473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="778.5" y="477.9951">Model Layer</text></g><!--MD5=[101359182aaae8afb202b59109b902f6]
+entity dataAccessLayer--><g id="elem_dataAccessLayer"><rect fill="#87CEEB" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="151" x="548.5" y="455"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="558.5" y="477.9951">Data Access Layer</text></g><!--MD5=[00d0ea988e967290b82c73968a5c6684]
+entity dbEntity--><g id="elem_dbEntity"><polygon fill="#FF00FF" points="1239,694,1219,681,1179,681,1159,694,1179,707,1219,707,1239,694" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="1179" y="698.9951">Entity</text></g><!--MD5=[0c170465c024e70ccca6192b7741bae3]
+entity cloudEntity--><g id="elem_cloudEntity"><polygon fill="#FF00FF" points="1070,694,1050,681,1010,681,990,694,1010,707,1050,707,1070,694" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="1010" y="698.9951">Entity</text></g><!--MD5=[21b77d99c8e42b836976049a9ae6a9b3]
+entity lsEntity--><g id="elem_lsEntity"><polygon fill="#FF00FF" points="897,694,877,681,837,681,817,694,837,707,877,707,897,694" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="837" y="698.9951">Entity</text></g><!--MD5=[e061b6377ab4a20036f0d716bb5737dd]
+entity ftpEntity--><g id="elem_ftpEntity"><polygon fill="#FF00FF" points="752,694,732,681,692,681,672,694,692,707,732,707,752,694" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="692" y="698.9951">Entity</text></g><!--MD5=[d7a01c17c4163d10b2c6131af23a7c66]
+entity logger--><g id="elem_logger"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="66" x="967" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="977" y="380.9951">logger</text></g><!--MD5=[3220cc13404f501a106b23405b154cb5]
+entity error--><g id="elem_error"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="1068" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="1078" y="380.9951">error</text></g><!--MD5=[caf660ac2a54b55a5c31b5515889e628]
+entity config--><g id="elem_config"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="967" y="455"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="977" y="477.9951">config</text></g><!--MD5=[b73a149e02d616b0b73127b4fd0e5544]
+entity constant--><g id="elem_constant"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="81" x="1066.5" y="455"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1076.5" y="477.9951">constant</text></g><!--MD5=[d0ec5763d3974dbe61a34cf0f1be798d]
+entity commonDalInterface--><g id="elem_commonDalInterface"><rect fill="#FF00FF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="186" x="513" y="907"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="523" y="929.9951">Common DAL Interface</text></g><!--MD5=[a3850e909c9e65e78bb833c648834729]
+entity commonDal--><g id="elem_commonDal"><rect fill="#FF00FF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="639" y="810"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="649" y="832.9951">Common DAL</text></g><!--MD5=[f41f4d3589b8ba87f34d6f7fec52948c]
+link controllerLayer to dataAccessLayer--><g id="link_controllerLayer_dataAccessLayer"><path d="M500.3134,123.4712 C500.4848,123.4817 500.6585,123.4925 500.8346,123.5034 C501.5392,123.5471 502.2819,123.5939 503.0615,123.6439 C509.2984,124.0441 517.8924,124.6495 528.1161,125.5091 C548.5634,127.2281 575.5294,129.9638 603.1938,134.1075 C658.5225,142.395 716.645,156.315 731,179 C782.17,259.85 765.98,310.09 720,394 C706.42,418.79 681.42,438.71 660.34,452.21 " fill="none" id="controllerLayer-to-dataAccessLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="655.9,455,665.6486,453.5984,660.1336,452.3397,661.3922,446.8247,655.9,455" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f3f4a7b60bab503662fe6634701992a0]
+link controllerLayer to serviceLayer--><g id="link_controllerLayer_serviceLayer"><path d="M500.2693,123.9624 C500.5788,124.0002 500.8961,124.0391 501.2211,124.0791 C506.4213,124.7192 513.592,125.6427 522.1353,126.8492 C539.2219,129.2622 561.7987,132.8069 585.0825,137.4788 C631.65,146.8225 681.045,160.675 695,179 C727.04,221.08 710.25,247.36 695,298 C688.7,318.91 674.67,339.37 662.92,353.93 " fill="none" id="controllerLayer-to-serviceLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="659.67,357.88,668.4676,353.4526,662.8385,354.0121,662.279,348.383,659.67,357.88" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[78e3babbb48dd82d9d91071474664b76]
+link controllerLayer to useCaseLayer--><g id="link_controllerLayer_useCaseLayer"><path d="M500.0784,130.7423 C500.1679,130.8281 500.2581,130.9146 500.3489,131.0017 C500.7122,131.35 501.0856,131.7081 501.469,132.0756 C502.2356,132.8107 503.0418,133.5837 503.8847,134.3919 C510.6281,140.8575 519.7262,149.58 529.8075,159.245 C549.97,178.575 574.065,201.675 591.12,218.03 " fill="none" id="controllerLayer-to-useCaseLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="595.14,221.88,591.4011,212.7684,591.5268,218.4239,585.8713,218.5496,595.14,221.88" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[926c6bac1b06f3baec0107195724d8cb]
+link dalImpl to commonDalInterface--><g id="link_dalImpl_commonDalInterface"><path d="M619.2301,755.6644 C619.2071,755.9562 619.1841,756.2486 619.1611,756.5416 C619.115,757.1275 619.0688,757.7158 619.0224,758.3065 C618.9295,759.4877 618.8359,760.678 618.7417,761.8769 C618.5532,764.2746 618.3621,766.7062 618.1688,769.1663 C615.075,808.5275 611.41,855.18 608.92,886.91 " fill="none" id="dalImpl-to-commonDalInterface" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="615.89,887.53,607.34,906.92,601.93,886.44,615.89,887.53" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0ab8ba872e2cd228c54259844a1b8151]
+link dalImpl to commonDal--><g id="link_dalImpl_commonDal"><path d="M647.6795,755.1307 C647.805,755.3903 647.9309,755.6497 648.057,755.9089 C648.5618,756.9458 649.0719,757.9791 649.5871,759.0073 C651.6481,763.1202 653.7913,767.1513 656,771 C660.36,778.6 665.6,786.36 670.87,793.59 " fill="none" id="dalImpl-to-commonDal" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="676.55,789.5,683.21,809.61,665.46,798.04,676.55,789.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fbede436bfc59c9c0522dd2a9071095a]
+link commonDal to commonDalInterface--><g id="link_commonDal_commonDalInterface"><path d="M681.13,846.42 C668.81,859.15 651.75,876.76 637,891.99 " fill="none" id="commonDal-to-commonDalInterface" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="641.71,897.19,622.77,906.69,631.65,887.45,641.71,897.19" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[489f280bd1c10b3aa331e50de411854a]
+link useCaseLayer to serviceLayer--><g id="link_useCaseLayer_serviceLayer"><path d="M616.99,258.24 C622.57,282.37 632.71,326.2 638.85,352.75 " fill="none" id="useCaseLayer-to-serviceLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="640.03,357.82,641.8955,348.1494,638.9015,352.949,634.102,349.955,640.03,357.82" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8acf75cfc57da0d68ba82ec6d06d1393]
+link useCaseLayer to modelLayer--><g id="link_useCaseLayer_modelLayer"><path d="M644.46,258.27 C667.17,271.74 697.65,292 720,315 C763.21,359.48 798.67,424.87 813.93,455.29 " fill="none" id="useCaseLayer-to-modelLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="816.2,459.86,815.7906,450.0197,813.9811,455.3793,808.6215,453.5699,816.2,459.86" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d3718ec4a51b90ebce72659ff742b59c]
+link useCaseLayer to dataAccessLayer--><g id="link_useCaseLayer_dataAccessLayer"><path d="M598.72,258.25 C587.92,272.48 573.96,293.72 568,315 C558.53,348.81 557.24,360.58 568,394 C574.95,415.61 590.36,436.31 603.26,450.94 " fill="none" id="useCaseLayer-to-dataAccessLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="606.82,454.9,603.7904,445.5287,603.4823,451.1772,597.8338,450.8691,606.82,454.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7f8275b9a215b8356b9fc1883147e870]
+link serviceLayer to modelLayer--><g id="link_serviceLayer_modelLayer"><path d="M674.1,394.16 C690.54,403.43 711.3,415.01 730,425 C751,436.22 774.96,448.44 793.16,457.61 " fill="none" id="serviceLayer-to-modelLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="797.66,459.87,791.4087,452.2594,793.1907,457.6282,787.8219,459.4102,797.66,459.87" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[087e4863ca4d49f779efec3abf371bf9]
+link serviceLayer to dataAccessLayer--><g id="link_serviceLayer_dataAccessLayer"><path d="M640.33,394.42 C637.06,409.96 632.26,432.78 628.7,449.66 " fill="none" id="serviceLayer-to-dataAccessLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="627.65,454.69,633.4136,446.7037,628.6772,449.7966,625.5842,445.0602,627.65,454.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[00ced04130b7119be0e4a88f52613a0f]
+link dataAccessLayer to modelLayer--><g id="link_dataAccessLayer_modelLayer"><path d="M699.8,473 C709.69,473 719.58,473 729.47,473 " fill="none" id="dataAccessLayer-to-modelLayer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="734.64,473,725.64,469,729.64,473,725.64,477,734.64,473" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[39c3d3462ba8ff53eb5e3a071473fcf5]
+link dataAccessLayer to dalImpl--><g id="link_dataAccessLayer_dalImpl"><path d="M624,491.18 C624,503.8875 624,522.5631 624,543.4998 C624,548.734 624,554.1095 624,559.5684 C624,560.9331 624,562.3031 624,563.6773 " fill="none" id="dataAccessLayer-to-dalImpl" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="624,563.6773,628,554.6773,624,558.6773,620,554.6773,624,563.6773" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="625" y="536.0669">Dependency injection</text></g><!--MD5=[87c0d250fe745bb7eb031e22f6e5f759]
+@startuml
+
+
+frame "App (Entry Point)" as app #cyan {
+  rectangle "DB Init" #white
+  rectangle "RestApi Init" #white
+  rectangle "Cron Init" #white
+  rectangle "MQ Init" #white
+  rectangle "EventBus Init" #white
+}
+
+
+frame "Controller layer" as controllerLayer #yellowgreen {
+  cloud "Internet\n(RestAPI, GraphQL)" as internet #white {
+    hexagon "TO" as cloudTO #fuchsia
+  }
+  queue "Message Queue" as messageQueue #white
+  storage "CronJob" as croneJob #white
+  storage "EventBus" as eventBus #white
+}
+
+rectangle "Common DAL Interface" as commonDalInterface #fuchsia
+rectangle "Common DAL" as commonDal #fuchsia
+
+frame "Business Layer" as businessLayer {
+  rectangle "Use Case Layer" as useCaseLayer #yellow
+  rectangle "Service Layer" as serviceLayer #orange
+  hexagon "Model Layer" as modelLayer #fuchsia
+  rectangle "Data Access Layer" as dataAccessLayer  #skyblue
+}
+
+frame "Data Access Layer Implementation" as dalImpl #skyblue {
+  database "DB\n(SQL, NoSQL)" as db #white {
+    hexagon "Entity" as dbEntity #fuchsia
+  }
+  cloud "Third party service\n(RestAPI, GraphQL)" as thirdPartiService #white {
+    hexagon "Entity" as cloudEntity #fuchsia
+  }
+  file "Local Storage\n(file, memory)" as localStorage #white {
+    hexagon "Entity" as lsEntity #fuchsia
+  }
+  file "FTP" as ftp #white {
+    hexagon "Entity" as ftpEntity #fuchsia
+  }
+}
+
+
+frame "Util" as util #yellow {
+  rectangle "logger" #white
+  rectangle "error" #white
+  rectangle "config" #white
+  rectangle "constant" #white
+}
+
+' rectangle "Module Layer" as moduleLayer
+
+' ' ' ' ' ' '
+' Relations '
+' ' ' ' ' ' '
+
+controllerLayer -down-> dataAccessLayer
+controllerLayer -down-> serviceLayer
+controllerLayer -down-> useCaseLayer
+
+dalImpl .down.|> commonDalInterface
+dalImpl -down-|> commonDal
+
+commonDal .down.|> commonDalInterface
+
+useCaseLayer -down-> serviceLayer
+useCaseLayer -right-> modelLayer
+useCaseLayer -down-> dataAccessLayer
+
+serviceLayer -right-> modelLayer
+serviceLayer -down-> dataAccessLayer
+
+dataAccessLayer -right-> modelLayer
+dataAccessLayer .down.> dalImpl : Dependency injection
+
+@enduml
+
+@startuml
+
+
+frame "App (Entry Point)" as app #cyan {
+  rectangle "DB Init" #white
+  rectangle "RestApi Init" #white
+  rectangle "Cron Init" #white
+  rectangle "MQ Init" #white
+  rectangle "EventBus Init" #white
+}
+
+
+frame "Controller layer" as controllerLayer #yellowgreen {
+  cloud "Internet\n(RestAPI, GraphQL)" as internet #white {
+    hexagon "TO" as cloudTO #fuchsia
+  }
+  queue "Message Queue" as messageQueue #white
+  storage "CronJob" as croneJob #white
+  storage "EventBus" as eventBus #white
+}
+
+rectangle "Common DAL Interface" as commonDalInterface #fuchsia
+rectangle "Common DAL" as commonDal #fuchsia
+
+frame "Business Layer" as businessLayer {
+  rectangle "Use Case Layer" as useCaseLayer #yellow
+  rectangle "Service Layer" as serviceLayer #orange
+  hexagon "Model Layer" as modelLayer #fuchsia
+  rectangle "Data Access Layer" as dataAccessLayer  #skyblue
+}
+
+frame "Data Access Layer Implementation" as dalImpl #skyblue {
+  database "DB\n(SQL, NoSQL)" as db #white {
+    hexagon "Entity" as dbEntity #fuchsia
+  }
+  cloud "Third party service\n(RestAPI, GraphQL)" as thirdPartiService #white {
+    hexagon "Entity" as cloudEntity #fuchsia
+  }
+  file "Local Storage\n(file, memory)" as localStorage #white {
+    hexagon "Entity" as lsEntity #fuchsia
+  }
+  file "FTP" as ftp #white {
+    hexagon "Entity" as ftpEntity #fuchsia
+  }
+}
+
+
+frame "Util" as util #yellow {
+  rectangle "logger" #white
+  rectangle "error" #white
+  rectangle "config" #white
+  rectangle "constant" #white
+}
+
+
+
+controllerLayer -down-> dataAccessLayer
+controllerLayer -down-> serviceLayer
+controllerLayer -down-> useCaseLayer
+
+dalImpl .down.|> commonDalInterface
+dalImpl -down-|> commonDal
+
+commonDal .down.|> commonDalInterface
+
+useCaseLayer -down-> serviceLayer
+useCaseLayer -right-> modelLayer
+useCaseLayer -down-> dataAccessLayer
+
+serviceLayer -right-> modelLayer
+serviceLayer -down-> dataAccessLayer
+
+dataAccessLayer -right-> modelLayer
+dataAccessLayer .down.> dalImpl : Dependency injection
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 12:55:52 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
