@@ -1,0 +1,21 @@
+@startuml
+
+rectangle "User\ncreated order" as userAction
+
+queue "Event Bus" as exchanger
+
+rectangle "Step 1\ncharge customer" as step1
+rectangle "Step 2\nschedule order" as step2
+rectangle "Step 3\nsend email"  as step3
+
+exchanger <-up- userAction : Order created
+
+exchanger -down-> step1 : \lOn order\ncreated
+exchanger <-down- step1 : \lCustomer\ncharged
+
+exchanger -down-> step2 : \lOn customer\ncharged
+exchanger <-down- step2 : \lOrder\nscheduled
+
+exchanger -down-> step3 : \lOn order\nscheduled
+
+@enduml
