@@ -8,6 +8,9 @@ In microservice communication and code event distribution
 - [Simplified Example's](#simplified-examples)
   * [Orchestration solution](#orchestration-solution)
   * [Choreography solution](#choreography-solution)
+- [Orchestration pros](#orchestration-pros)
+  * [Flexibility](#flexibility)
+- [Orchestration cons](#orchestration-cons)
 
 <!-- tocstop -->
 
@@ -49,6 +52,29 @@ We have purchase system where we buy some item and this are the steps that need 
 
 ![Diagram](orchestrate-3-step-example.svg)
 
+In this solution we can already see that there are to many lines going to and from orchestrator.
+This means that orchestrator has a knowledge of all partis included in this transaction.
+All the logic for this transaction is centralized in one place, and if anything changes on any participant of the transaction the
+change could be required for the orchestrator as well.
+Here the complexity of our code rises when we need to store the current phase of the transaction into database after each step.
+If we where storing this information in memory we would risk the possibility of losing information which could occur if there is
+unexpected error or server is shutdown for some reason.
+
 ### Choreography solution
 
 ![Diagram](choreography-3-step-example.svg)
+
+In this solution we see that no entity is talking directly to other entity.
+This is decentralised process, in other words no one knows that any other process exists.
+Each process only knows what it needs to do, when or what is the trigger for that process and what is the result and it's
+responsibility is to broadcast the information after the process is finished.
+This is highly flexible but if overused we can create spaghetti message queue hell 
+
+## Orchestration pros
+
+### Flexibility
+
+Tha main positive aspect is flexibility, in my opinion this is one of the most important characteristics of software (the magic
+thing making it soft :smile: ).
+
+## Orchestration cons
