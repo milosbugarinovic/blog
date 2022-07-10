@@ -2,7 +2,7 @@
 
 rectangle "User\ncreated order" as userAction
 
-queue "Event Bus" as exchanger
+queue "Message Queue" as exchanger
 
 rectangle "Step 1\ncharge customer" as step1
 rectangle "Step 2\nschedule order" as step2

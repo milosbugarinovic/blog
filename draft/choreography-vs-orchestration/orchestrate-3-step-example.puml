@@ -2,7 +2,7 @@
 
 rectangle "User\ncreated order" as userAction
 rectangle {
-  actor Orchestration as orchestrator
+  actor Orchestrator as orchestrator
   database "Orchestrator\nDB" as orchestratorDb
 }
 rectangle "Step 1\ncharge customer" as step1
