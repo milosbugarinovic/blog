@@ -9,3 +9,9 @@
 aws.xml
 conventionalCommit.xml
 GitLink.xml
+webServers.xml
+deployment.xml
+sshConfigs.xml
+markdown.xml
+markdown-doclet.xml
+pegdown-doclet.xml

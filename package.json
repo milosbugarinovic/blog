@@ -14,9 +14,7 @@
   },
   "scripts": {
     "doc:toc": "npm run doc:toc:architecture && npm run doc:toc:choreography",
-    "doc:toc:architecture": "npm run doc:toc:architecture:en && npm run doc:toc:architecture:sr",
-    "doc:toc:architecture:en": "npx markdown-toc -i ./draft/programming-architecture/index.en.md",
-    "doc:toc:architecture:sr": "npx markdown-toc -i ./draft/programming-architecture/index.sr.md",
+    "doc:toc:architecture": "npx markdown-toc -i ./draft/programming-architecture/index.en.md",
     "doc:toc:choreography": "npx markdown-toc -i ./draft/choreography-vs-orchestration/index.en.md"
   },
   "version": "1.0.0"

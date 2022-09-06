@@ -19,17 +19,17 @@ frame "Controller layer" as controllerLayer #yellowgreen {
   storage "EventBus" as eventBus #white
 }
 
-rectangle "Common DAL Interface" as commonDalInterface #fuchsia
 rectangle "Common DAL" as commonDal #fuchsia
+rectangle "Common Repository" as commonRepo #fuchsia
 
 frame "Business Layer" as businessLayer {
   rectangle "Use Case Layer" as useCaseLayer #yellow
   rectangle "Service Layer" as serviceLayer #orange
   hexagon "Model Layer" as modelLayer #fuchsia
-  rectangle "Data Access Layer" as dataAccessLayer  #skyblue
+  rectangle "Repository Layer" as repoLayer  #skyblue
 }
 
-frame "Data Access Layer Implementation" as dalImpl #skyblue {
+frame "Data Access Layer" as dal #skyblue {
   database "DB\n(SQL, NoSQL)" as db #white {
     hexagon "Entity" as dbEntity #fuchsia
   }
@@ -58,23 +58,23 @@ frame "Util" as util #yellow {
 ' Relations '
 ' ' ' ' ' ' '
 
-controllerLayer -down-> dataAccessLayer
-controllerLayer -down-> serviceLayer
-controllerLayer -down-> useCaseLayer
+controllerLayer -right-> repoLayer
+controllerLayer -right-> serviceLayer
+controllerLayer -right-> useCaseLayer
 
-dalImpl .down.|> commonDalInterface
-dalImpl -down-|> commonDal
+dal -down-|> commonDal
+repoLayer -down-|> commonRepo
 
-commonDal .down.|> commonDalInterface
+commonRepo -down-> commonDal
 
 useCaseLayer -down-> serviceLayer
 useCaseLayer -right-> modelLayer
-useCaseLayer -down-> dataAccessLayer
+useCaseLayer -down-> repoLayer
 
 serviceLayer -right-> modelLayer
-serviceLayer -down-> dataAccessLayer
+serviceLayer -down-> repoLayer
 
-dataAccessLayer -right-> modelLayer
-dataAccessLayer .down.> dalImpl : Dependency injection
+repoLayer -right-> modelLayer
+repoLayer -down-> dal : Dependency injection
 
 @enduml
