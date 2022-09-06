@@ -7,11 +7,12 @@
 - [Business Layer (BL)](#business-layer-bl)
   * [Service Layer (SL)](#service-layer-sl)
   * [Use Case Layer (UCL)](#use-case-layer-ucl)
+  * [Repository Layer (RL)](#repository-layer-rl)
   * [Data Access Layer (DAL)](#data-access-layer-dal)
-  * [Data Access Implementation Layer (DAIL)](#data-access-implementation-layer-dail)
   * [Model Layer (ML)](#model-layer-ml)
 - [Library Layer (LL)](#library-layer-ll)
 - [Util Layer (UL)](#util-layer-ul)
+- [Folder structure example for node.js application](#folder-structure-example-for-nodejs-application)
 
 <!-- tocstop -->
 
@@ -79,8 +80,8 @@ This layer can be complex so we need to brake it down
 
 - Use Case Layer (UCL)
 - Service Layer (SL)
+- Repository Layer (RL)
 - Data Access Layer (DAL)
-- Data Access Implementation Layer (DAIL)
 - Model Layer (ML)
 
 ### Service Layer (SL)
@@ -103,27 +104,27 @@ called in it (reading them like a book).
 Name of the UCL function can be short, but it should accompanied with the documentation/requirement for that feature, which when
 reading we should be seeing same functionality in the UCL body of the function.
 
-### Data Access Layer (DAL)
+### Repository Layer (RL)
 
-In DAL we place business logic which is responsible for storing and loading data. When we think of storing data it not important
+In RL we place business logic which is responsible for storing and loading data. When we think of storing data it not important
 which method we use for storing it is only important that we can store it for long time and recall it when needed.
 We can use DB, file, memory, ftp, third party system, RestApi, GraphQL...
 
 This is also a good place to create a border and keep frameworks away from our business logic.
-To do this we need to create an implementation layer (DAIL - Data Access Implementation Layer).
-This is going to give us flexibility, if needed, to switch data type of any entity by switching implementation layer.
+To do this we need to create an data access layer - DAL.
+This is going to give us flexibility, if needed, to switch data type of any entity by switching data access layer.
 
 This layer is used as adapter for any type of data that we need to store it is good idea to make a standard/common way of
 manipulation of the data.
 This way we get a standardised way of filtering and sorting our data.
 
-### Data Access Implementation Layer (DAIL)
+### Data Access Layer (DAL)
 
 This layer is managing how we are actually storing or fetching data.
 We can store data in DB, file, memory, ftp, third party system, RestApi, GraphQL...
 
 This layer should actually be a wrapper for the framework that we are using to manipulate data. This framework should never spill
-into DAL.
+into RL.
 
 ### Model Layer (ML)
 
@@ -160,3 +161,27 @@ We need to find the middle ground.
 This layer is used for storing functionalities which have no business logic in them.
 This functions can be used across all layers with no restrictions.
 God example for Util Layer are logger, env, error.
+
+## Folder structure example for node.js application
+
+```
+src
+├── app
+│   └── init
+├── business
+│   ├── model
+│   ├── repo
+│   ├── service
+│   └── use-case
+├── controller
+│   └── express
+├── dal
+│   └── typeorm
+│       └── entity
+├── lib
+│   └── typeorm
+│       ├── migration
+│       └── subscriber
+└── util
+
+```

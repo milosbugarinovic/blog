@@ -4,5 +4,5 @@ This is a blog content written by Miloš Bugarinović
 
 ## Draft
 
-* [Programming Architecture](draft/programming-architecture/index.en.md) ([sr](draft/programming-architecture/index.sr.md))
+* [Programming Architecture](draft/programming-architecture/index.en.md)
 * [Choreography vs Orchestration](draft/choreography-vs-orchestration/index.en.md)
