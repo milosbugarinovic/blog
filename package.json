@@ -13,9 +13,11 @@
     "url": "git+https://github.com/milosbugarinovic/blog.git"
   },
   "scripts": {
-    "doc:toc": "npm run doc:toc:architecture && npm run doc:toc:choreography",
+    "doc:toc": "npm run doc:toc:architecture && npm run doc:toc:choreography && npm run doc:toc:msh",
     "doc:toc:architecture": "npx markdown-toc -i draft/programming-architecture/index.md",
-    "doc:toc:choreography": "npx markdown-toc -i draft/choreography-vs-orchestration/index.md"
+    "doc:toc:choreography": "npx markdown-toc -i draft/choreography-vs-orchestration/index.md",
+    "doc:toc:msh": "npm run doc:toc:msh:util",
+    "doc:toc:msh:util": "npx markdown-toc -i draft/open-source/msh/msh-util.en.md"
   },
   "version": "1.0.0"
 }
