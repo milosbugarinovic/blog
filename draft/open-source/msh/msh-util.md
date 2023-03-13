@@ -23,7 +23,7 @@ functionality get a bit lager we will extract them into separate library.
   * [deepClone](#deepclone)
   * [pickByList](#pickbylist)
   * [pickByObjectKeys](#pickbyobjectkeys)
-  * [stringifySortOrNullOrUndefined](#stringifysortornullorundefined)
+  * [deepStringify](#deepstringify)
   * [deepEqual](#deepequal)
   * [deepNullToUndefined](#deepnulltoundefined)
 - [regex-util](#regex-util)
@@ -180,18 +180,18 @@ Pick objects properties using keys from the second object.
 console.log(new ObjectUtil().pickByObjectKeys({ a: 1, b: 2, c: 3 }, { a: '', b: 'it is not importath what the value is' })) // { a: 1, b: 2 }
 ```
 
-### stringifySortOrNullOrUndefined
+### deepStringify
 
-This function will do stringify deeper that JSON.stringify. If the object that you pass is null or undefined it will return that
-value (null or undefined) otherwise it will return string
+This function will do stringify deeper that JSON.stringify.
 
 ```ts
-console.log(new ObjectUtil().stringifySortOrNullOrUndefined(null)) // null
-console.log(new ObjectUtil().stringifySortOrNullOrUndefined(undefined)) // undefined
-console.log(new ObjectUtil().stringifySortOrNullOrUndefined({ a: 1 })) // '{\n\ta: 1\n}'
+console.log(new ObjectUtil().deepStringify(null)) // 'null'
+console.log(new ObjectUtil().deepStringify(undefined)) // 'undefined'
+console.log(new ObjectUtil().deepStringify({ a: 1 })) // '{\n\ta: 1\n}'
 // `{
 //   a:1
 // }`
+console.log(new ObjectUtil().deepStringify({ b: 1, a: 2 }, {isSorted:true, compact: true})) // { a: 2, b: 1 }
 ```
 
 ### deepEqual
@@ -215,7 +215,7 @@ This is a UUID regex expression. This is usually used in express router to const
 are using UUID as your identifier).
 
 ```ts
-const uuid = regexUtil.uuid()
+const { uuid } = regexUtil
 router.route(`/users/:userId(${uuid})`).get(getUsersById)
 //...
 ```
