@@ -40,7 +40,7 @@ functionality get a bit lager we will extract them into separate library.
 - [type-util](#type-util)
   * [exhaustiveMessage](#exhaustivemessage)
   * [exhaustiveError](#exhaustiveerror)
-- [entity-cache](#entity-cache)
+- [class-factory-patten](#class-factory-patten)
 - [joi-util](#joi-util)
 - [express/error-handler](#expresserror-handler)
 
@@ -340,11 +340,26 @@ export const makeSound = (animal: Animal): string => {
 }
 ```
 
-## entity-cache
+## class-factory-patten
 
-> This section is a candidate for moving util functionality to it's own module/library.
+This is a wrapper that easily converts class constructor call (`new className(..constructorParams)`) into function
+call (`classNameFactory(..constructorParams)`)
 
-In this section we use memory as a DAL for the entities we want to cache. The way we get the data from cached entity is by subscribing to an entityId. When we subscribe get the entity from cache, if there is no entity in the cache the entity is required by using `_entityAsync` call that needs to be defined. If there is a cached value but it has expired, the data is refreshed again using `_entityAsync` call. Once the entity is refreshed, if there are any subscribers listening to the same id the fresh new object is going to be sent to them.
+```ts
+export class SomeClass {
+  protected _a: string
+
+  constructor(params: { a: string }) {
+    const { a } = params
+    this._a = a
+  }
+}
+
+export const someClassFactory = classFactoryPattern(SomeClass)
+
+// using
+const someClassInstance = someClassFactory({ a: 'test' })
+```
 
 ## joi-util
 
