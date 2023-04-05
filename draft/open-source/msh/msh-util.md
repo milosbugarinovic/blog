@@ -1,4 +1,4 @@
-# [DRAFT] [msh-util](https://github.com/beecode-rs/msh-util) `v0.1.0`
+# [DRAFT] [msh-util](https://github.com/beecode-rs/msh-util) `v1.2.0`
 
 `msh-util` is a part of a larger collection of useful tools
 which I personally use in all my professional and personal projects
@@ -40,6 +40,9 @@ functionality get a bit lager we will extract them into separate library.
 - [type-util](#type-util)
   * [exhaustiveMessage](#exhaustivemessage)
   * [exhaustiveError](#exhaustiveerror)
+- [array-util](#array-util)
+  * [notEmpty](#notempty)
+  * [notFalsy](#notfalsy)
 - [class-factory-patten](#class-factory-patten)
 - [joi-util](#joi-util)
 - [express/error-handler](#expresserror-handler)
@@ -338,6 +341,26 @@ export const makeSound = (animal: Animal): string => {
       throw typeUtil.exhaustiveError('Unknown animal [animal]', animal)
   }
 }
+```
+
+## array-util
+
+### notEmpty
+
+Check if array element is not empty
+
+```ts
+const notEmptyArray = [0, 1, 2, null, undefined, ''].filter(arrayUtil.notEmpty)
+console.log(notEmptyArray)// [0, 1, 2, '']
+```
+
+### notFalsy
+
+Check if array element is not falsy
+
+```ts
+const notFalsyArray = [0, 1, 2, null, undefined, ''].filter(arrayUtil.notFalsy)
+console.log(notFalsyArray)// [1, 2]
 ```
 
 ## class-factory-patten

@@ -4,6 +4,10 @@
     "url": "https://github.com/milosbugarinovic/blog/issues"
   },
   "description": "",
+  "engines": {
+    "node": "=18.15.0",
+    "npm": "=9.6.1"
+  },
   "homepage": "https://github.com/milosbugarinovic/blog#readme",
   "license": "ISC",
   "main": "index.js",
@@ -17,7 +21,7 @@
     "doc:toc:architecture": "npx markdown-toc -i draft/programming-architecture/index.md",
     "doc:toc:choreography": "npx markdown-toc -i draft/choreography-vs-orchestration/index.md",
     "doc:toc:msh": "npm run doc:toc:msh:util",
-    "doc:toc:msh:util": "npx markdown-toc -i draft/open-source/msh/msh-util.en.md"
+    "doc:toc:msh:util": "npx markdown-toc -i draft/open-source/msh/msh-util.md"
   },
   "version": "1.0.0"
 }
